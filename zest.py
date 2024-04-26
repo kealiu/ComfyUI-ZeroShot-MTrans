@@ -19,10 +19,6 @@ class ZeSTGrayoutSubject:
     CATEGORY = "image"
 
     def grayoutSubject(self, target_image, subject_mask, brighter):
-        print("target_image ", target_image.size(), target_image)
-        print("subject_mask ", subject_mask.size(), subject_mask)
-        print("brighter ", brighter)
-        # from pure mask to image
         subject_mask = subject_mask.reshape((-1, 1, subject_mask.shape[-2], subject_mask.shape[-1])).movedim(1, -1).expand(-1, -1, -1, 3)
 
         target = Image.fromarray((255. * target_image[0]).numpy().astype(np.uint8))

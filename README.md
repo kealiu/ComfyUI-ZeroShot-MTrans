@@ -1,7 +1,32 @@
 # ComfyUI-ZeroShot-MTrans
-ZeST: Zero-Shot Material Transfer from a Single Image
 
+An unofficial ComfyUI custom node for ZeST(Zero-Shot Material Transfer from a Single Image)
 
+## install
+
+in `ComfyUI Manager` or git clone to `ComfyUI/custom_nodes`
+
+## dependences
+
+- ControlNet
+- IP-Adaptor
+- Segment Anything Model
+
+## Input/Outpu
+
+- INPUT: 
+  - `target_image` : the original image for inpaint
+  - `subject_mask` : the `mask` for inpaint
+  - `brighter` : default is 1, means no change
+    - value < 1 , means darker the subject, useful when subject in high light
+    - value >  1, means brighter the subject, useful when subject in dark light
+
+- OUTPUT:
+  - `IMAGE` : image with `subject` in luminosity(grey) mode. used for inpaint
+
+## Workflow 
+
+![ZeST Simple Workflow](ZeSTSimpleWorkflow.png)
 
 # Thanks to
 
@@ -17,4 +42,4 @@ ZeST: Zero-Shot Material Transfer from a Single Image
   journal={arXiv preprint arXiv:2404.06425},
   year={2024}
 }
-```
+``` 
