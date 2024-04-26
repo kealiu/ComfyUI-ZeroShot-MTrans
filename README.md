@@ -12,6 +12,10 @@ Given an input image (e.g., a photo of an apple) and a single material exemplar 
 
 in `ComfyUI Manager` or git clone to `ComfyUI/custom_nodes`
 
+After restart `ComfyUI`, the following custom node will be available.
+
+![ZestNode](images/ZeSTNode.png)
+
 ## dependences
 
 - ControlNet

@@ -12,6 +12,10 @@
 
 在 `ComfyUI Manager` 中安装或将代码克隆至 `ComfyUI/custom_nodes`
 
+重启`ComfyUI`后即可使用如下节点
+
+![ZestNode](images/ZeSTNode.png)
+
 ## 依赖项
 
 - ControlNet
