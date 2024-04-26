@@ -1,6 +1,12 @@
 # ComfyUI-ZeroShot-MTrans: Zero-Shot Material Transfer from a Single Image
 
-An unofficial ComfyUI custom node for ZeST(Zero-Shot Material Transfer from a Single Image)
+[中文](README_CN.md)
+
+An unofficial ComfyUI custom node for [ZeST(Zero-Shot Material Transfer from a Single Image)](https://github.com/ttchengab/zest_code/)
+
+![Zero-Shot Material Transfer from a Single Image](https://github.com/ttchengab/zest_code/raw/main/fig/method.jpg)
+
+Given an input image (e.g., a photo of an apple) and a single material exemplar image (e.g., a golden bowl), ZeST can transfer the gold material from the exemplar onto the apple with accurate lighting cues while making everything else consistent.
 
 ## install
 
@@ -12,7 +18,7 @@ in `ComfyUI Manager` or git clone to `ComfyUI/custom_nodes`
 - IP-Adaptor
 - Segment Anything Model
 
-## Input/Outpu
+## Input/Output
 
 - INPUT: 
   - `target_image` : the original image for inpaint
@@ -27,6 +33,26 @@ in `ComfyUI Manager` or git clone to `ComfyUI/custom_nodes`
 ## Workflow 
 
 ![ZeST Simple Workflow](ZeSTSimpleWorkflow.png)
+
+### Image Input
+![pumpkin](images/pumpkin.png)
+
+### Material Input
+![cpu_material](images/cpu_material.png)
+
+### Temp Images
+
+#### Mask
+
+![pumpkin_mask](images/pumpkin_mask.png)
+
+#### Subject Grayout
+
+![pumpkin_zest](images/pumpkin_zest.png)
+
+### Output
+
+![pumpkin_output](images/pumpkin_output.png)
 
 # Thanks to
 
