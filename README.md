@@ -1,4 +1,4 @@
-# ComfyUI-ZeroShot-MTrans
+# ComfyUI-ZeroShot-MTrans: Zero-Shot Material Transfer from a Single Image
 
 An unofficial ComfyUI custom node for ZeST(Zero-Shot Material Transfer from a Single Image)
 
