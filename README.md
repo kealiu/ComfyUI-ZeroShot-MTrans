@@ -10,11 +10,11 @@ Given an input image (e.g., a photo of an apple) and a single material exemplar 
 
 ## Explains
 
-The original demo code use IPA to extract the style of material, and control for depth information. Then, change the original image with illumination informaion of subject for better lighting style.
+Refer to [zest_workflow.json](zest_workflow.json) in this repo for quick start.
 
-This node implementation the [illumination transfer](https://github.com/ttchengab/zest_code/blob/main/demo_gradio.py#L127), and make it an ComfyUI node. You can use any IPA and controlnet node as your wish.
+This node implenment the red rect area of paper figure. the [illumination transfer](https://github.com/ttchengab/zest_code/blob/main/demo_gradio.py#L127), and make it an ComfyUI node. You can use any IPA and controlnet node as your wish.
 
-This node implenment the red rect area of paper figure. For quickly start, you can refer to [zest_workflow.json](zest_workflow.json) in this repo.
+The original ZeST demo code use IPA to extract the style of material, and control for depth information. Then, change the original image with illumination informaion of subject for better lighting style.
 
 ## install
 

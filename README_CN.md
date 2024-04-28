@@ -10,11 +10,12 @@
 
 ## 说明
 
-原始的演示代码使用 IPA 提取材质的风格信息，并控制深度信息。然后，利用主体的明度信息改变原始图像，以获得更好的光照样式。
+workflow参考Repo中 [zest_workflow.json](zest_workflow.json) 
 
-这个自定义节点实现了材质的[明度转移](https://github.com/ttchengab/zest_code/blob/main/demo_gradio.py#L127)功能，并将其封装成一个 ComfyUI 节点。IPA/ControlNet使用已有Node即可。
+这个自定义节点实现了上图中红色部分，材质的[明度转移](https://github.com/ttchengab/zest_code/blob/main/demo_gradio.py#L127)功能，并将其封装成一个 ComfyUI 节点。IPA/ControlNet使用已有Node即可。
 
-Node功能即上图中红色部分。workflow参考Repo中 [zest_workflow.json](zest_workflow.json) 
+
+原始的ZeST演示代码使用 IPA 提取材质的风格信息，并控制深度信息。然后，利用主体的明度信息改变原始图像，以获得更好的光照样式。
 
 ## 安装
 
