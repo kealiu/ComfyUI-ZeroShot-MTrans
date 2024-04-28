@@ -44,6 +44,10 @@
 
 ![ZeST Simple Workflow](ZeSTSimpleWorkflow.png)
 
+### 样例
+
+![Detail Usage](images/workflow-sample.png)
+
 ### 输入图片
 ![pumpkin](images/pumpkin.png)
 

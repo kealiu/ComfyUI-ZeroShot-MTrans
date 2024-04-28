@@ -45,6 +45,10 @@ After restart `ComfyUI`, the following custom node will be available.
 
 ![ZeST Simple Workflow](ZeSTSimpleWorkflow.png)
 
+### sample workflow
+
+![Detail Usage](images/workflow-sample.png)
+
 ### Image Input
 ![pumpkin](images/pumpkin.png)
 
