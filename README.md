@@ -26,13 +26,14 @@ After restart `ComfyUI`, the following custom node will be available.
 
 - INPUT: 
   - `target_image` : the original image for inpaint
-  - `subject_mask` : the `mask` for inpaint
+  - `subject_mask` : the `mask` for inpaint, this `mask` will be also used as input of `inpaint` node
   - `brighter` : default is 1, means no change
     - value < 1 , means darker the subject, useful when subject in high light
     - value >  1, means brighter the subject, useful when subject in dark light
+    - tips: make sure the output subject is in `middle grey`.
 
 - OUTPUT:
-  - `IMAGE` : image with `subject` in luminosity(grey) mode. used for inpaint
+  - `IMAGE` : image with `subject` in luminosity(grey) mode. used as input for `inpaint` node
 
 ## Workflow 
 
