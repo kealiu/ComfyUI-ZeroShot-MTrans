@@ -38,10 +38,16 @@ After restart `ComfyUI`, the following custom node will be available.
   - `brighter` : default is 1, means no change
     - value < 1 , means darker the subject, useful when subject in high light
     - value >  1, means brighter the subject, useful when subject in dark light
-    - tips: make sure the output subject is in `middle grey`.
 
 - OUTPUT:
   - `IMAGE` : image with `subject` in luminosity(grey) mode. used as input for `inpaint` node
+
+### Tips
+
+1. for output, the subject in `middle grey` is prefered. for high light material, dark it; otherwise, brighter it.
+2. for `material` image, suggest remove all backgroup, just keep the material you want.
+3. use `IP-Adaptor` strength, `controlnet` strength, `brighter` to control the output 1st.
+
 
 ## Workflow 
 
