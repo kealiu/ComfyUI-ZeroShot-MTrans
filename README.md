@@ -14,7 +14,7 @@ The original demo code use IPA to extract the style of material, and control for
 
 This node implementation the [illumination transfer](https://github.com/ttchengab/zest_code/blob/main/demo_gradio.py#L127), and make it an ComfyUI node. You can use any IPA and controlnet node as your wish.
 
-This node implenment the red rect area of paper figure.
+This node implenment the red rect area of paper figure. For quickly start, you can refer to [zest_workflow.json](zest_workflow.json) in this repo.
 
 ## install
 
@@ -44,6 +44,10 @@ After restart `ComfyUI`, the following custom node will be available.
   - `IMAGE` : image with `subject` in luminosity(grey) mode. used as input for `inpaint` node
 
 ## Workflow 
+
+
+You can download the [zest_workflow.json](zest_workflow.json) from this repo for quickly start.
+
 
 ![ZeST Simple Workflow](ZeSTSimpleWorkflow.png)
 

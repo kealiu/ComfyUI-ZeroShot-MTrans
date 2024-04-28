@@ -14,7 +14,7 @@
 
 这个自定义节点实现了材质的[明度转移](https://github.com/ttchengab/zest_code/blob/main/demo_gradio.py#L127)功能，并将其封装成一个 ComfyUI 节点。IPA/ControlNet使用已有Node即可。
 
-Node功能即上图中红色部分。
+Node功能即上图中红色部分。workflow参考Repo中 [zest_workflow.json](zest_workflow.json) 
 
 ## 安装
 
@@ -43,6 +43,8 @@ Node功能即上图中红色部分。
     - IMAGE ：亮度模式（灰度）下的目标图像。 作为 inpaint节点的输入
 
 ## 工作流程
+
+可以直接下载Repo中的 [zest_workflow.json](zest_workflow.json) 快速使用.
 
 ![ZeST Simple Workflow](ZeSTSimpleWorkflow.png)
 
