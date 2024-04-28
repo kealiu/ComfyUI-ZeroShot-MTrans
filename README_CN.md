@@ -4,7 +4,7 @@
 
 一个适用于 [ZeST（零样本单图像材质迁移）](https://github.com/ttchengab/zest_code/)的非官方 ComfyUI 自定义节点
 
-![Zero-Shot Material Transfer from a Single Image](https://github.com/ttchengab/zest_code/raw/main/fig/method.jpg)
+![Zero-Shot Material Transfer from a Single Image](images/method.jpeg)
 
 给定一张输入图像（例如，一个苹果的照片）和一张单独的材质样例图像（例如，一个金碗），ZeST 可以将金材质从样例图像转移到苹果上，同时具有准确的光照线索，并保持其他部分的细节一致。
 
@@ -13,6 +13,8 @@
 原始的演示代码使用 IPA 提取材质的风格信息，并控制深度信息。然后，利用主体的明度信息改变原始图像，以获得更好的光照样式。
 
 这个自定义节点实现了材质的[明度转移](https://github.com/ttchengab/zest_code/blob/main/demo_gradio.py#L127)功能，并将其封装成一个 ComfyUI 节点。IPA/ControlNet使用已有Node即可。
+
+Node功能即上图中红色部分。
 
 ## 安装
 

@@ -4,7 +4,7 @@
 
 An unofficial ComfyUI custom node for [ZeST(Zero-Shot Material Transfer from a Single Image)](https://github.com/ttchengab/zest_code/)
 
-![Zero-Shot Material Transfer from a Single Image](https://github.com/ttchengab/zest_code/raw/main/fig/method.jpg)
+![Zero-Shot Material Transfer from a Single Image](images/method.jpeg)
 
 Given an input image (e.g., a photo of an apple) and a single material exemplar image (e.g., a golden bowl), ZeST can transfer the gold material from the exemplar onto the apple with accurate lighting cues while making everything else consistent.
 
@@ -13,6 +13,8 @@ Given an input image (e.g., a photo of an apple) and a single material exemplar 
 The original demo code use IPA to extract the style of material, and control for depth information. Then, change the original image with illumination informaion of subject for better lighting style.
 
 This node implementation the [illumination transfer](https://github.com/ttchengab/zest_code/blob/main/demo_gradio.py#L127), and make it an ComfyUI node. You can use any IPA and controlnet node as your wish.
+
+This node implenment the red rect area of paper figure.
 
 ## install
 
