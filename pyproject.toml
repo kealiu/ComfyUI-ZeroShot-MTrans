@@ -2,7 +2,7 @@
 name = "comfyui-zeroshot-mtrans"
 description = "An unofficial ComfyUI custom node for [a/Zero-Shot Material Transfer from a Single Image](https://ttchengab.github.io/zest), Given an input image (e.g., a photo of an apple) and a single material exemplar image (e.g., a golden bowl), ZeST can transfer the gold material from the exemplar onto the apple with accurate lighting cues while making everything else consistent."
 version = "1.0.0"
-license = "LICENSE"
+license = { file = "LICENSE" }
 dependencies = ["torch", "numpy", "pillow"]
 
 [project.urls]
